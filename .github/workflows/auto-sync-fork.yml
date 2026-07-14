@@ -4,6 +4,11 @@ name: Auto Sync Fork
 # Usa a API nativa merge-upstream do GitHub (o mesmo "Sync fork" da interface):
 # roda server-side, sem checkout, é rápida e atualiza até arquivos
 # .github/workflows/ (o GITHUB_TOKEN padrão não conseguiria via git push).
+#
+# AVISO POR E-MAIL: se a sincronização falhar (fork divergiu do upstream ou há
+# conflito), o job termina com erro (exit 1) e o GitHub envia e-mail de falha
+# automaticamente ao dono do repositório. Requer, na conta:
+# Settings > Notifications > Actions > "Send notifications for failed workflows only".
 
 on:
   schedule:
@@ -30,5 +35,7 @@ jobs:
           if gh api --method POST "repos/${GITHUB_REPOSITORY}/merge-upstream" -f branch="${BRANCH}"; then
             echo "OK: fork sincronizado (ou ja estava atualizado)."
           else
-            echo "AVISO: merge automatico nao foi possivel - o fork divergiu do upstream ou ha conflito. Requer sincronizacao manual."
+            echo "ERRO: merge automatico falhou - o fork divergiu do upstream ou ha conflito."
+            echo "O GitHub enviara e-mail de falha ao dono do repositorio. Requer sincronizacao manual."
+            exit 1
           fi
