@@ -1893,6 +1893,7 @@ Official skills published by Cypress to help create, maintain, understand, and f
 - **[HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** - Scene-aware keyframes plus transcripts so any LLM watches videos
 - **[Optim-Agent/optim-agent](https://github.com/Optim-Agent/optim-agent)** - Agent-guided optimization for measurable system tuning.
 - **[Orkas-AI/video-router](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router)** - Route video requests through deterministic agent production stages
+- **[ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills)** - Agent skills for YouTube: pull video transcripts and discover videos (search, channel and playlist listings) via TranscriptAPI.
 - **[morluto/rea](https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything)** - Reverse-engineer binaries, applications, and runtimes with REA
 
 </details>
