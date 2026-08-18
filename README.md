@@ -47,6 +47,7 @@ The most contributed Agent Skills repository, built and maintained together with
 |  |  |
 | :-: | :-- |
 | <a href="https://www.testmuai.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.voltagent.dev/awesome-repo/testmui/testmuai-white.png"><img alt="TestMu AI" src="https://cdn.voltagent.dev/awesome-repo/testmui/testmuai-black.png" width="425"></picture></a> | [TestMu AI (formerly LambdaTest)](https://www.testmuai.com) is an AI-native testing cloud platform built for modern engineering teams. Covering everything from autonomous test creation and fast execution to testing AI agents, chatbots and voice assistants. |
+| <a href="https://modem.dev/go/awesome-agent-skills"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.voltagent.dev/awesome-repo/modemlabs/modemlabs-dark.svg"><img alt="Modem" src="https://cdn.voltagent.dev/awesome-repo/modemlabs/modemlab-light.svg" width="425"></picture></a> | [Modem](https://modem.dev/go/awesome-agent-skills) is an AI product teammate that takes scattered discussions and turns them into a company-specific context that surfaces insights, automates actions, and closes the loop with teammates and customers. |
 
 <br />
 
@@ -75,6 +76,7 @@ The most contributed Agent Skills repository, built and maintained together with
 | [CodeRabbit](#skills-by-coderabbit) | [Coinbase](#skills-by-coinbase) | [Datadog Labs](#skills-by-datadog-labs) | [Firebase](#skills-by-firebase) |
 | [Flutter](#skills-by-flutter) | [Venice.ai](#skills-by-veniceai) | [Red Hat](#skills-by-redhat) | [Community](#community-skills) |
 | [Redis](#skills-by-redis) | [NVIDIA](#skills-by-nvidia) | [Google Cloud](#skills-by-google-cloud) | [Quality Standards](#skill-quality-standards) |
+| [Modem Dev](#skills-by-modem-dev) | | | |
 
 
 
@@ -184,6 +186,13 @@ Production-grade Agent Skills for every major test automation framework, maintai
 - **[testmu-ai/webdriverio-skill](https://github.com/LambdaTest/agent-skills/tree/main/webdriverio-skill)** - Generate WebdriverIO (WDIO) automation tests in JavaScript or TypeScript
 - **[testmu-ai/xcuitest-skill](https://github.com/LambdaTest/agent-skills/tree/main/xcuitest-skill)** - Generate XCUITest UI tests for iOS/iPadOS apps in Swift
 - **[testmu-ai/xunit-skill](https://github.com/LambdaTest/agent-skills/tree/main/xunit-skill)** - Generate xUnit.net tests in C# with Fact/Theory and FluentAssertions
+
+</details>
+
+<details>
+<summary><h3 style="display:inline">Skills by Modem Dev</h3></summary>
+
+- **[modem-dev/skills](https://github.com/modem-dev/skills)** - Agent skills from Modem, starting with write-discoverable-code
 
 </details>
 
