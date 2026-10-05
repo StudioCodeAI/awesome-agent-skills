@@ -23,6 +23,7 @@
 ![Skills Count](https://img.shields.io/badge/Skills-1497+-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
+[![Official MCP Servers](https://img.shields.io/badge/Official%20MCP%20Servers-VoltAgent-5ed8a0?style=flat-square&logo=github&logoColor=white&labelColor=24292f)](https://github.com/VoltAgent/official-mcp-servers)
 
 
 </div>
